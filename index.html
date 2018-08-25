@@ -229,6 +229,248 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/08/25/测试markEdit/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/08/25/测试markEdit/" itemprop="url">测试markEdit</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-08-25T18:42:01+08:00">
+                2018-08-25
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="这是我在测试，知道吗？"><a href="#这是我在测试，知道吗？" class="headerlink" title="这是我在测试，知道吗？"></a>这是我在测试，知道吗？</h1><p>终于等到你，还好我没有放弃</p>
+<blockquote>
+<p> 这什么大<br>哈哈 好阿红啊<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> &lt;T&gt; <span class="function">SocketChannel <span class="title">setOption</span><span class="params">(SocketOption&lt;T&gt; var1, T var2)</span> <span class="keyword">throws</span> IOException </span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (var1 == <span class="keyword">null</span>) &#123;</span><br><span class="line">            <span class="keyword">throw</span> <span class="keyword">new</span> NullPointerException();</span><br><span class="line">        &#125; <span class="keyword">else</span> <span class="keyword">if</span> (!<span class="keyword">this</span>.supportedOptions().contains(var1)) &#123;</span><br><span class="line">            <span class="keyword">throw</span> <span class="keyword">new</span> UnsupportedOperationException(<span class="string">"'"</span> + var1 + <span class="string">"' not supported"</span>);</span><br><span class="line">        &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">            Object var3 = <span class="keyword">this</span>.stateLock;</span><br><span class="line">            <span class="keyword">synchronized</span>(<span class="keyword">this</span>.stateLock) &#123;</span><br><span class="line">                <span class="keyword">if</span> (!<span class="keyword">this</span>.isOpen()) &#123;</span><br><span class="line">                    <span class="keyword">throw</span> <span class="keyword">new</span> ClosedChannelException();</span><br><span class="line">                &#125; <span class="keyword">else</span> <span class="keyword">if</span> (var1 == StandardSocketOptions.IP_TOS) &#123;</span><br><span class="line">                    StandardProtocolFamily var4 = Net.isIPv6Available() ? StandardProtocolFamily.INET6 : StandardProtocolFamily.INET;</span><br><span class="line">                    Net.setSocketOption(<span class="keyword">this</span>.fd, var4, var1, var2);</span><br><span class="line">                    <span class="keyword">return</span> <span class="keyword">this</span>;</span><br><span class="line">                &#125; <span class="keyword">else</span> <span class="keyword">if</span> (var1 == StandardSocketOptions.SO_REUSEADDR &amp;&amp; Net.useExclusiveBind()) &#123;</span><br><span class="line">                    <span class="keyword">this</span>.isReuseAddress = (Boolean)var2;</span><br><span class="line">                    <span class="keyword">return</span> <span class="keyword">this</span>;</span><br><span class="line">                &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                    Net.setSocketOption(<span class="keyword">this</span>.fd, Net.UNSPEC, var1, var2);</span><br><span class="line">                    <span class="keyword">return</span> <span class="keyword">this</span>;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure></p>
+</blockquote>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/08/25/configs/sorts/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/08/25/configs/sorts/" itemprop="url">Untitled</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-08-25T18:41:22+08:00">
+                2018-08-25
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            {"":["迪达拉.md","测试markedit.md","hello-world.md"],"__positions":{"测试markedit.md":2,"迪达拉.md":1,"hello-world.md":3},"__raw_positions":{"测试markedit.md":2,"迪达拉.md":1,"hello-world.md":3}}
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/08/23/迪达拉/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -301,252 +543,11 @@
         
           
             <blockquote>
-<p>哪里有彩虹</p>
+<p>哪里有彩虹<img src="./_image/5955000B-3DC9-46A1-AE95-381EC4FA66A0.jpeg" alt=""></p>
 </blockquote>
-<h1 id="哈哈"><a href="#哈哈" class="headerlink" title="哈哈"></a>哈哈</h1><p><code>new String();</code></p>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/08/23/“郑姝你好”/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="John Doe">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/08/23/“郑姝你好”/" itemprop="url">“郑姝你好”</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-08-23T23:17:39+08:00">
-                2018-08-23
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <blockquote>
-<p>哪里有彩虹告诉</p>
-</blockquote>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/08/23/“我的第一个”/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="John Doe">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/08/23/“我的第一个”/" itemprop="url">“我的第一个”</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-08-23T22:45:42+08:00">
-                2018-08-23
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <blockquote>
-<p>这是一段代码</p>
+<h1 id="哪里有彩虹告诉我，能不能把我的愿望还给我"><a href="#哪里有彩虹告诉我，能不能把我的愿望还给我" class="headerlink" title="哪里有彩虹告诉我，能不能把我的愿望还给我"></a>哪里有彩虹告诉我，能不能把我的愿望还给我</h1><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">new</span> String();</span><br></pre></td></tr></table></figure>
+<h1 id="哈哈"><a href="#哈哈" class="headerlink" title="哈哈"></a>哈哈</h1><h2 id="嘻嘻"><a href="#嘻嘻" class="headerlink" title="嘻嘻"></a>嘻嘻</h2><blockquote>
+<p>hi 我真的好想你，窗外面还下着雨，<br>哗啦啦天在下雨，哗啦啦的雨在哭泣。我爱你，是多么清楚，多么艰苦的信仰<br>我爱你，是那么情况</p>
 </blockquote>
 
           
